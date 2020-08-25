@@ -1,0 +1,7 @@
+{
+  "name": "node express.js blogging app",
+  "description": "a simple blogging built with javascript",
+  "repository": "https://github.com/HobbyTransform/blogging-app",
+  "logo": "",
+  "keywords": ["JavaScript", "Blogging","Express.js"]
+}
