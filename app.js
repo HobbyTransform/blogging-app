@@ -65,5 +65,6 @@ app.post("/api/posts", upload.single("post-image"), (req, res)=>{
 })
 
 // start the server listening for requests
-app.listen(process.env.PORT || 3000, 
-	() => console.log("Server is running..."));
+var listener = app.listen(process.env.PORT || 3000, () => {
+	console.log('Listening on port ' + listener.address().port);
+});
