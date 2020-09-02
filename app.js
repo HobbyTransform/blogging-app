@@ -31,9 +31,9 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/uploads', express.static('uploads'));
-
 app.use('/static', express.static('static'));
+
+app.use('/uploads', express.static('uploads'));
 //---------------------------------------------------------
 
 app.get("/api/posts", (req, res)=>{
