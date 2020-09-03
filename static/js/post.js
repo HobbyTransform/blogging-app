@@ -1,4 +1,4 @@
-const API_URL = "https://node-expressjs-blogging-app.herokuapp.com/api/posts";
+const API_URL = "https://node-expressjs-blogging-app.herokuapp.com/api/posts/";
 const API_BASE_URL = "https://node-expressjs-blogging-app.herokuapp.com/";
 
 window.onload = () => {
