@@ -42,7 +42,7 @@ header::after {
     height: 100px;
     background-color: white;
     border-radius: 50%;
-    background-image: url(/assets/SP2.jpg);
+    background-image: url(/assets/SP2.JPG);
     background-size: cover;
 }
 
