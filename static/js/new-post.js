@@ -1,4 +1,4 @@
-const API_URL = "https://node-expressjs-blogging-app.herokuapp.com/api/posts";
+const API_URL = "https://node-expressjs-blogging-app.herokuapp.com/api/posts/";
 
 //function to submit form data to the API
 const submitNewPost = () => {
